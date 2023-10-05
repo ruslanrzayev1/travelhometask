@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ruslan Travel</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <div class="cntnr">
+    <header>
       <div class="nvbr">
         <div class="frst">
           <div class="mnvbr">
@@ -52,7 +52,15 @@
           <p>CHECK OUR BEST PROMOTIONS</p>
         </div>
         <div class="isc">
-          <input type="text" placeholder="Choose your Destination..." />
+          <select name="choose your next destination..." id="choose">
+            <option value="Europe">Europe</option>
+            <option value="Italy">-Italy</option>
+            <option value="Netherland">-Netherland</option>
+            <option value="Asia">Asia</option>
+            <option value="Thailandia">-Thailandia</option>
+            <option value="United States">United States</option>
+            <option value="Oceania">Oceania</option>
+          </select>
         </div>
         <div class="imgsec">
           <div>
@@ -85,211 +93,285 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="second">
-      <div class="head">
-        <p>OUR PROPOSALS</p>
-        <strong>OUR DESTINATIONS</strong>
-      </div>
-      <div class="imgf">
-        <div class="cntry">
-          <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/destination-9.jpg"
-            alt=""
-          />
-          <div class="nma">
-            <strong>EUROPE</strong>
-            <p>3 PACKAGES</p>
-          </div>
+    </header>
+    <main>
+      <section class="second">
+        <div class="head">
+          <p>OUR PROPOSALS</p>
+          <strong>OUR DESTINATIONS</strong>
         </div>
-        <div class="cntry">
-          <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/destination-5-720x720.jpg"
-            alt=""
-          />
-          <div class="nma">
-            <strong>Thailandia</strong>
-            <p>1 PACKAGE</p>
+        <div class="imgf">
+          <div class="cntry">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/destination-9.jpg"
+              alt=""
+            />
+            <div class="nma">
+              <strong>EUROPE</strong>
+              <p>3 PACKAGES</p>
+            </div>
           </div>
-        </div>
-        <div class="cntry">
-          <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-8.jpg"
-            alt=""
-          />
+          <div class="cntry">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/destination-5-720x720.jpg"
+              alt=""
+            />
+            <div class="nma">
+              <strong>Thailandia</strong>
+              <p>1 PACKAGE</p>
+            </div>
+          </div>
+          <div class="cntry">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-8.jpg"
+              alt=""
+            />
 
-          <div class="nma">
-            <strong>Asia</strong>
-            <p>2 PACKAGES</p>
+            <div class="nma">
+              <strong>Asia</strong>
+              <p>2 PACKAGES</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="imgs">
-        <div class="cntry">
+        <div class="imgs">
+          <div class="cntry">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-10.jpg"
+              alt=""
+            />
+            <div class="nma">
+              <strong>İtaly</strong>
+              <p>1 PACKAGE</p>
+            </div>
+          </div>
+          <div class="cntry">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-11.jpg"
+              alt=""
+            />
+            <div class="nma">
+              <strong>Netherland</strong>
+              <p>1 PACKAGE</p>
+            </div>
+          </div>
+          <div class="cntry">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-1-1-720x720.jpg"
+              alt=""
+            />
+            <div class="nma">
+              ><strong>United States</strong>
+              <p>1 PACKAGE</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bridgesec">
+        <div id="hdrhld">
+          <strong>Your</strong>
+          <strong>Next Holiday</strong>
+        </div>
+        <div id="btnvap"><p>VIEW ALL PACKAGES</p></div>
+      </section>
+      <section class="beach">
+        <div class="wrtimg">
+          <div class="wrtna">
+            <p id="na">NORTH AMERICA</p>
+            <strong>The Best Beaches </strong>
+            <p class="wrtfr">
+              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin
+              rhoncus urna dictum neque molestie ultricies mauris ac.
+            </p>
+            <p class="wrtfr">
+              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin
+              rhoncus urna dictum neque molestie ultricies mauris ac.
+            </p>
+            <div class="dlr">
+              <p id="frstprc">800</p>
+              <p>500 $</p>
+              <p id="frprsn">/FOR PERSON</p>
+            </div>
+
+            <p id="bknw">BOOK NOW</p>
+          </div>
+          <div>
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-3.jpg"
+              alt="beach"
+            />
+          </div>
+        </div>
+
+        <div class="trctgr">
+          <div class="ctgrs">
+            <strong>World Tour</strong>
+            <p class="contex">
+              Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin
+              rhonc us urna dictum.
+            </p>
+            <p class="vm">View More</p>
+          </div>
+          <div class="ctgrs">
+            <strong>Cruises</strong>
+            <p class="contex">
+              Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin
+              rhonc us urna dictum.
+            </p>
+            <p class="vm">View More</p>
+          </div>
+          <div class="ctgrs">
+            <strong>Best Tours</strong>
+            <p class="contex">
+              Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin
+              rhonc us urna dictum.
+            </p>
+            <p class="vm">View More</p>
+          </div>
+        </div>
+      </section>
+      <section class="discover">
+        <div class="cities">
           <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-10.jpg"
+            src="https://4kwallpapers.com/images/walls/thumbs_3t/2971.jpg"
             alt=""
           />
-          <div class="nma">
-            <strong>İtaly</strong>
-            <p>1 PACKAGE</p>
+          <div class="contexcities">
+            <p class="highlight">01. LAST MINUTE</p>
+            <strong>Discover Cities</strong>
+            <p class="detfst">DETAILS</p>
           </div>
         </div>
-        <div class="cntry">
+        <div class="natural">
           <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-11.jpg"
+            src="https://s1.best-wallpaper.net/wallpaper/m/1805/Bamboo-forest-light-glare_m.webp"
             alt=""
           />
-          <div class="nma">
-            <strong>Netherland</strong>
-            <p>1 PACKAGE</p>
+          <div class="contexnatural">
+            <p class="highlight">02. PROMOTIONS</p>
+            <strong>Discover Nature</strong>
+            <p class="detsec">DETAILS</p>
           </div>
         </div>
-        <div class="cntry">
-          <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-1-1-720x720.jpg"
-            alt=""
-          />
-          <div class="nma">
-            ><strong>United States</strong>
-            <p>1 PACKAGE</p>
+      </section>
+      <section class="pro">
+        <div class="proo">
+          <p>PROMOTIONS</p>
+          <strong>OUR PACKAGES</strong>
+        </div>
+        <div class="city">
+          <div class="cityth">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-1-1024x640.jpg"
+              alt=""
+            /><strong>Berlin</strong>
+            <p class="continent">Europe</p>
+            <div class="price">
+              <p>CULTURAL RELAX</p>
+              <p class="dlrs">700$</p>
+            </div>
+            <p class="cntxgray">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
+              efficitur ante. Donec dapibus dictum scelerisque.
+            </p>
+            <div class="detailsy"><p>DETAILS</p></div>
+          </div>
+          <div class="cityth">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/package-6-1024x640.jpg"
+              alt=""
+            /><strong>Hong Kong</strong>
+            <p class="continent">Asia</p>
+            <div class="price">
+              <p>HISTORY RELAX</p>
+              <p class="dlrs">500$</p>
+            </div>
+            <p class="cntxgray">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
+              efficitur ante. Donec dapibus dictum scelerisque.
+            </p>
+            <div class="detailsr"><p>DETAILS</p></div>
+          </div>
+          <div class="cityth">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-2-1024x640.jpg"
+              alt=""
+            /><strong>San Francisco</strong>
+            <p class="continent">United States</p>
+            <div class="price">
+              <p>SPORT RELAX</p>
+              <p class="dlrs">400$</p>
+            </div>
+            <p class="cntxgray">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
+              efficitur ante. Donec dapibus dictum scelerisque.
+            </p>
+            <div class="detailsp"><p>DETAILS</p></div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="bridgesec">
-      <div id="hdrhld">
-        <strong>Your</strong>
-        <strong>Next Holiday</strong>
-      </div>
-      <div id="btnvap"><p>VIEW ALL PACKAGES</p></div>
-    </div>
-    <div class="beach">
-      <div class="wrtimg">
-        <div class="wrtna">
-          <p id="na">NORTH AMERICA</p>
-          <strong>The Best Beaches </strong>
-          <p class="wrtfr">
-            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin
-            rhoncus urna dictum neque molestie ultricies mauris ac.
-          </p>
-          <p class="wrtfr">
-            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin
-            rhoncus urna dictum neque molestie ultricies mauris ac.
-          </p>
-          <div class="dlr">
-            <p id="frstprc">800</p>
-            <p>500 $</p>
-            <p id="frprsn">/FOR PERSON</p>
+      </section>
+    </main>
+    <footer>
+      <form action="travel">
+        <div class="fdbck">
+          <div class="fdbcktwo">
+            <p>KEEP IN TOUCH</p>
+            <strong>Travel with Us</strong>
+          </div>
+          <div class="email"><input type="email" /><button>SEND</button></div>
+        </div>
+        <div class="ftr">
+          <div class="categorytravel">
+          <div class="logosec">
+            <img
+              src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/logo-color.png"
+              alt="Travel Logo"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              ut diam et nibh condimentum venenatis eu ac magnasin. Quisque
+              interdum est mauris, eget ullamcorper.
+            </p>
           </div>
 
-          <p id="bknw">BOOK NOW</p>
+          <div class="issues">
+            <div class="issuestwo">
+              <strong>OUR AGENCY</strong>
+              <ul>
+                <li>Services</li>
+                <li>Insurancee</li>
+                <li>Agency</li>
+                <li>Tourism</li>
+                <li>Payment </li>
+              </ul>
+            </div>
+            <div class="issuestwo">
+              <strong>PARTNERS</strong>
+              <ul>
+                <li>Booking</li>
+                <li>RentalCar</li>
+                <li>HostelWorld</li>
+                <li>Trivago</li>
+                <li>TripAdvisor</li>
+              </ul>
+            </div>
+            <div class="issuestwo">
+              <strong>LAST MINUTE</strong>
+              <ul>
+                <li>London</li>
+                <li>California</li>
+                <li>Indonesia</li>
+                <li>Europe</li>
+                <li>Oceania</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div>
-          <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-3.jpg"
-            alt="beach"
-          />
+          <div class="foot">
+            <p>THE BEST WORDPRESS TRAVEL THEME</p>
+            <p>COPYRIGHT NICDARK THEMES 2018</p>
+          </div>
         </div>
-      </div>
-
-      <div class="trctgr">
-        <div class="ctgrs">
-          <strong>World Tour</strong>
-          <p class="contex">
-            Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc
-            us urna dictum.
-          </p>
-          <p class="vm">View More</p>
-        </div>
-        <div class="ctgrs">
-          <strong>Cruises</strong>
-          <p class="contex">
-            Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc
-            us urna dictum.
-          </p>
-          <p class="vm">View More</p>
-        </div>
-        <div class="ctgrs">
-          <strong>Best Tours</strong>
-          <p class="contex">
-            Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc
-            us urna dictum.
-          </p>
-          <p class="vm">View More</p>
-        </div>
-      </div>
-    </div>
-    <div class="discover">
-      <div class="cities">
-        <img
-          src="https://4kwallpapers.com/images/walls/thumbs_3t/2971.jpg"
-          alt=""
-        />
-        <div class="contexcities">
-          <p class="highlight">01. LAST MINUTE</p>
-          <strong>Discover Cities</strong>
-          <p class="detfst">DETAILS</p>
-        </div>
-      </div>
-      <div class="natural">
-        <img
-          src="https://s1.best-wallpaper.net/wallpaper/m/1805/Bamboo-forest-light-glare_m.webp"
-          alt=""
-        />
-        <div class="contexnatural">
-          <p class="highlight">02. PROMOTIONS</p>
-          <strong>Discover Nature</strong>
-          <p class="detsec">DETAILS</p>
-        </div>
-      </div>
-    </div>
-    <div class="pro">
-      <div class="proo">
-        <p>PROMOTIONS</p>
-        <strong>OUR PACKAGES</strong>
-      </div>
-      <div class="city">
-        <div class="cityth">
-          <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-1-1024x640.jpg"
-            alt=""
-          /><strong>Berlin</strong>
-          <p class="continent">Europe</p>
-          <div class="price"><p>CULTURAL RELAX</p><p class="dlrs">700$</p></div>
-          <p class="cntxgray">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
-            efficitur ante. Donec dapibus dictum scelerisque.
-          </p>
-          <div class="detailsy"><p>DETAILS</p></div>
-        </div>
-        <div class="cityth">
-          <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/package-6-1024x640.jpg"
-            alt=""
-          /><strong>Hong Kong</strong>
-          <p class="continent">Asia</p>
-          <div class="price"><p>HISTORY RELAX</p><p class="dlrs">500$</p></div>
-          <p class="cntxgray">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
-            efficitur ante. Donec dapibus dictum scelerisque.
-          </p>
-          <div class="detailsr"><p>DETAILS</p></div>
-        </div>
-        <div class="cityth">
-          <img
-            src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-2-1024x640.jpg"
-            alt=""
-          /><strong>San Francisco</strong>
-          <p class="continent">United States</p>
-          <div class="price"><p>SPORT RELAX</p><p class="dlrs">400$</p></div>
-          <p class="cntxgray">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut
-            efficitur ante. Donec dapibus dictum scelerisque.
-          </p>
-          <div class="detailsp"><p>DETAILS</p></div>
-        </div>
-      </div>
-    </div>
+      </form>
+    </footer>
   </body>
 </html>

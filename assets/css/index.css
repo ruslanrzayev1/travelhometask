@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.cntnr {
+header {
     position: relative;
 }
 
@@ -121,7 +121,7 @@
     margin-top: 60px;
 }
 
-.isc input {
+.isc select {
     width: 373px;
     height: 43px;
     border-radius: 25px;
@@ -602,4 +602,124 @@ height: 270px;
 .dlrs{
     padding-right: 20px;
     font-size: 25px;
+}
+footer{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-7.jpg?id=1602);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.fdbck{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fdbcktwo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.fdbcktwo p{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fdbcktwo strong{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555;
+}
+.email{
+    display: flex;
+    gap: 30px;
+}
+.email button{
+    cursor: pointer;
+    color: white;
+    border: none;
+background-color: #14B9D5;
+height: 40px;
+width: 100px;
+border-radius: 25px;
+}
+.email input{
+    border: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 25px;
+}
+.ftr{
+    background-color: white;
+    width: 1170px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.logosec{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    padding-right: 20px;
+
+}
+.logosec p{
+    width: 415px;
+    height: 80px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #9a9a9a;
+    padding-top: 20px;
+}
+.logosec img{
+    width: 155px;
+    height: 40px;
+
+}
+.issues{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+.issuestwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.issuestwo strong{
+    font-size: 14px;
+}
+.issuestwo ul{
+    padding-top: 20px;
+    color: #9a9a9a;
+    line-height: 24px;
+}
+.foot{
+    background-color: #14B9D5;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot p{
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+.categorytravel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 20px;
+    
 }
